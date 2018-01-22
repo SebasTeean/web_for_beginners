@@ -10,7 +10,7 @@
 
 .courseName {
 	height: 500px;
-	background-image: url(code.png);
+	background-image: url(coding.jpg); /*была ошибка в названии файла*/
 	color: white;
 	background-size: cover;
 }
