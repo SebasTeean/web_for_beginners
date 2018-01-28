@@ -1,0 +1,147 @@
+@import url(reset_minified.css);
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.page {
+	width: 700px;
+	margin: auto;
+	/* Волшебство, работает!)) */
+	font-size: 0;
+} 
+
+
+
+/* ШАПКА */
+
+.mainHeader {
+	height: 80px;
+	font-size: 16px;
+	background-image: url(../img/dog_paws.jpg);
+	background-size: contain;
+	/* opacity: 0.5; — ??? не работает... Как сделать фоновый паттерн прозрачным? */
+}
+
+.headerBack {
+
+}
+
+.storeName {
+	width: 200px;
+	min-height: 10px;
+	background-color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+}
+
+.storeLogo {
+	display: inline-block;
+}
+
+.logo-image {
+	height: 70px;
+}
+
+.storeNav {
+	background-color: white;
+	width: 50%;
+	color: white;
+	text-decoration: none; /* ??? Почему не убирает подчеркивание ссылок? */
+	font-family: Arial, Helvetica, sans-serif;
+	display: inline-block;
+}
+
+
+/* КОНТЕНТ */
+
+.content {
+
+	border: 5px solid white;
+	border-style: dotted;
+	background-color: #888888;
+	color: white;
+}
+
+#catName {
+	font-family: 'Pacifico', cursive;
+}
+
+h1 {
+	font-size: 38px;
+	color: yellow;
+}
+
+h2 {
+	font-size: 28px;
+}
+
+.leftContent {
+	width: 15vw;
+	height: 200px;
+	background-color: #000;
+	border-radius: 10px;
+	font-family: 'Pacifico', cursive;
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: top;
+}
+
+.catNav {
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+}
+
+.catNav a {
+	display: block;
+	line-height: 22px;
+}
+
+#catInfo {
+	font-family: 'Pacifico', cursive;
+}
+
+.rightContent {
+	min-height: 100px;
+	width: 450px;
+	background-color: #ccc;
+	border-radius: 15px;
+	line-height: 18px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.catImg {
+	width: 300px;
+	height: 300px;
+	background-color: red;
+	background-position: center; /* ??? ПОЧЕМУ ТАК УВЕЛИЧИВАЕТ КАРТИНКУ КОТА? */
+	border-radius: 50%;
+	background-image: url(../img/cat.png);
+	float: left;
+}
+
+.clear {
+	clear: both; /* зачищаем обтекание */
+}
+
+.catDescriptor {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+button.buy {
+	height: 40px;
+	width: 140px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 10px #555;
+	/* ??? как бы вот кнопку расположить по горизонтали по-человечески? 
+	Вообще, горизонтальные отступы просятся везде, а то все встык с краями */
+} 
+
+/* ФУТЕР */
+
+.Footer {
+	background-color: black;
+	height: 50px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
